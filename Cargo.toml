@@ -1,0 +1,20 @@
+[package]
+name = "wallet_balance"
+version = "0.1.0"
+edition = "2021"
+author = "Ajeet Yadav"
+email = "yadavajeetmail@gmail.com"
+
+[dependencies]
+bitcoin = "0.26"
+clap = { version = "4.0", features = ["derive"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+futures = "0.3"
+thiserror = "1.0"
+figlet-rs = "0.1.5"
+
+[package.metadata.docs.rs]
+all-features = true
