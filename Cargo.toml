@@ -1,5 +1,5 @@
 [package]
-name = "wallet_balance"
+name = "wallet_tool"
 version = "0.1.0"
 edition = "2021"
 author = "Ajeet Yadav"
